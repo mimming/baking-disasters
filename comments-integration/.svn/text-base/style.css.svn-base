@@ -1,0 +1,79 @@
+html, body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  width: 600px;
+}
+
+.blog-header {
+  border-bottom: 1px solid #222;
+  margin-bottom: 10px;
+}
+
+.blog-header h1 {
+  font-family: Gadget, "Arial Black", sans-serif;
+  margin-bottom: 5px;
+}
+
+.blog-header p { margin: 0; }
+
+.blog-header #blog-logo {
+  height: 100px;
+  float: left;
+}
+
+.content {
+  clear: both;
+  border-radius: 10px;
+  background-color: #EEE;
+  margin-top: 10px;
+  padding: 10px 10px 5px;
+}
+
+.content h2, .content h3 {
+  margin: 0 0 5px;
+}
+
+.content .baking-photo {
+  float: left;
+  margin: 5px;
+  width: 200px;
+}
+
+.comments {
+  clear: both;
+  border-radius: 10px;
+  background-color: #EEE;
+  margin-top: 10px;
+  padding: 10px 10px 5px;
+}
+
+.comments dl { width: 600px; }
+
+.comments dt {
+  float: left;
+  clear: both;
+  width: 60px;
+}
+
+.comments dd {
+  float: left;
+  width: 500px;
+  margin-left: 0;
+}
+
+.comments .g-commentlink {
+  clear: both;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+footer {
+  width: 600px;
+  height: 60px;
+  margin-top: 5px;
+  padding: 10px 10px 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #DDD;
+}

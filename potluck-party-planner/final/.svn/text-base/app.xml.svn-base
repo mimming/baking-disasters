@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Potluck Party Planner">
+    <Require feature="rpc"/>
+  </ModulePrefs>
+  <Content type="html"><![CDATA[
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Baking Disasters 2.0</title>
+  <script src="//hangoutsapi.talkgadget.google.com/hangouts/api/hangout.js?v=1.0"></script>
+  <script src="//apis.google.com/js/plusone.js"></script>
+
+  <link rel="stylesheet" href="//bakingdisasters.com/potluck-party-planner/final/style.css"/>
+  <link rel="shortcut icon" href="//bakingdisasters.com/potluck-party-planner/final/images/logo_favicon.png" />
+  <script src="//bakingdisasters.com/potluck-party-planner/final/app.js"></script>
+</head>
+<body>
+<header class="blog-header">
+  <img id="blog-logo" src="//bakingdisasters.com/potluck-party-planner/final/images/logo.png"/>
+  <h1>Baking Disasters</h1>
+  <p>Because sometimes molecular gastronomy explodes.</p>
+  <a style="display: none;" id="reminder-share-link"
+    href="https://plus.google.com/share?url=http://bakingdisasters.com">
+    Share a shopping reminder on <img
+    src="https://www.gstatic.com/images/icons/gplus-16.png"
+    alt="Share a shopping reminder on Google+"/></a>
+</header>
+<section class="content" id="loading">
+  <p>Hang in there! Stuff is still loading.</p>
+</section>
+<section class="content" id="recipe-list-content" style="display: none;">
+  <h2>Potluck Planner</h2>
+  <p>Select a recipe for your potluck:</p>
+  <ul id="recipe-list"></ul>
+  <div style="clear: both;"></div>
+</section>
+<section class="content" id="ingredient-list-content" style="display: none;">
+  <h2>
+    <a href="javascript:recipeUnselect()">&larr;</a>
+    Recipe selected: <span id="recipe-name"></span>
+  </h2>
+  <p>Select stuff to bring:</p>
+  <table class="who-bring-what">
+    <thead>
+      <tr><th>Who</th><th>What</th></tr>
+    </thead>
+    <tbody id="claim-list">
+    </tbody>
+    </table>
+  </section>
+<footer>
+  By <a href="http://plus.google.com/116852994107721644038">Baking Disasters</a>
+</footer>
+</body>
+</html>
+
+]]></Content>
+</Module>

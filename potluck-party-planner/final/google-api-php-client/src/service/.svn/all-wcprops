@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/!svn/ver/482596/external/authors/books/9781449312268/current/samples/potluck-party-planner/final/google-api-php-client/src/service
+END
+apiModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/!svn/ver/482596/external/authors/books/9781449312268/current/samples/potluck-party-planner/final/google-api-php-client/src/service/apiModel.php
+END
+apiService.php
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/!svn/ver/482596/external/authors/books/9781449312268/current/samples/potluck-party-planner/final/google-api-php-client/src/service/apiService.php
+END
+apiUtils.php
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/!svn/ver/482596/external/authors/books/9781449312268/current/samples/potluck-party-planner/final/google-api-php-client/src/service/apiUtils.php
+END
+apiBatch.php
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/!svn/ver/482596/external/authors/books/9781449312268/current/samples/potluck-party-planner/final/google-api-php-client/src/service/apiBatch.php
+END
+apiServiceResource.php
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/!svn/ver/482596/external/authors/books/9781449312268/current/samples/potluck-party-planner/final/google-api-php-client/src/service/apiServiceResource.php
+END
+apiServiceRequest.php
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/!svn/ver/482596/external/authors/books/9781449312268/current/samples/potluck-party-planner/final/google-api-php-client/src/service/apiServiceRequest.php
+END
