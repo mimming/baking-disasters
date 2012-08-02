@@ -59,12 +59,12 @@ HTML;
     if ($result['accessInfo']['embeddable'] == true) {
       $previewLink = ""
           . "<a href=\"javascript:load_viewport('${preview}','viewport');\">"
-          . "<img class='previewbutton' src='http://code.google.com/apis/books/images/gbs_preview_button1.png' />"
+          . "<img class='previewbutton' src='http://code.google.com/apis/books/images/gbs_preview_button1.png'>"
           . "</a><br>";
     }
 
     $thumbnailImg = ($thumbnail)
-        ? "<a href='${preview}'><img alt='$title' src='${thumbnail}'/></a>"
+        ? "<a href='${preview}'><img alt='$title' src='${thumbnail}'></a>"
         : '';
     print <<<HTML
     <tr>

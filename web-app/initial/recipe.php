@@ -7,7 +7,7 @@
 </head>
 <body>
 <header class="blog-header">
-  <a href="index.php"><img id="blog-logo" src="images/logo.png"/></a>
+  <a href="index.php"><img id="blog-logo" src="images/logo.png"></a>
   <h1>Baking Disasters</h1>
   <p>Because sometimes molecular gastronomy explodes.</p>
 </header>
@@ -29,7 +29,7 @@ if ($_POST) {
     <header>
       <h2><?= $recipe['name'] ?></h2>
     </header>
-    <img class="recipe-photo" src="<?= $recipe['photo_url'] ?>" />
+    <img class="recipe-photo" src="<?= $recipe['photo_url'] ?>">
 
     <p>
       <?= str_replace("\n", "<br/>\n", stripslashes($recipe['description'])) ?>
@@ -53,7 +53,7 @@ if ($_POST) {
   <?php foreach ($attempts as $attempt) { ?>
   <div class="attempt">
     <img class="attempt-photo" src="<?= $attempt['photo_url'] ?>" height="100"
-         width="100"/>
+         width="100">
 
     <h3><?= $attempt['author_name'] ?>'s Attempt</h3>
 

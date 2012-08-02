@@ -15,7 +15,7 @@
     <a href="login.php">Log in with Google+</a>
     <?php } ?>
   </span>
-  <a href="index.php"><img id="blog-logo" src="images/logo.png"/></a>
+  <a href="index.php"><img id="blog-logo" src="images/logo.png"></a>
 
   <h1>Baking Disasters</h1>
 
@@ -36,7 +36,7 @@ if ($_GET['recipe_id']) {
     <header>
       <h2><?= $recipe['name'] ?></h2>
     </header>
-    <img class="recipe-photo" src="<?= $recipe['photo_url'] ?>" />
+    <img class="recipe-photo" src="<?= $recipe['photo_url'] ?>">
 
     <p>
       <?= str_replace("\n", "<br/>\n", stripslashes($recipe['description'])) ?>
@@ -60,7 +60,7 @@ if ($_GET['recipe_id']) {
   <?php foreach ($attempts as $attempt) { ?>
   <div class="attempt">
     <img class="attempt-photo" src="<?= $attempt['photo_url'] ?>" height="100"
-         width="100"/>
+         width="100">
 
     <h3><?= $attempt['author']['displayName'] ?>'s Attempt</h3>
 

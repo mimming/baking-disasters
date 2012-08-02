@@ -15,7 +15,7 @@
     <a href="login.php">Log in with Google+</a>
     <?php } ?>
   </span>
-  <a href="index.php"><img id="blog-logo" src="images/logo.png"/></a>
+  <a href="index.php"><img id="blog-logo" src="images/logo.png"></a>
   <h1>Baking Disasters</h1>
   <p>Because sometimes molecular gastronomy explodes.</p>
 </header>
@@ -41,7 +41,7 @@ if (is_logged_in()) {
         if (count($activity['object']['attachments']) > 0) {
         ?>
           <img class="attempt-photo" src="
-            <?= $activity['object']['attachments'][0]['image']['url'] ?>"/>
+            <?= $activity['object']['attachments'][0]['image']['url'] ?>">
         <?php } ?>
 
         <h3><?= $activity['actor']['displayName'] ?>'s Attempt</h3>

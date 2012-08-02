@@ -41,7 +41,7 @@ commentr.parseComments = function(responseJson) {
 
     //do the insertion
     newContents += "<dt><a href='" + actor.url + "'><img src='" +
-        actor.image.url + "' /></a></dt>" + "<dd><a href='" + actor.url + "'>" +
+        actor.image.url + "'></a></dt>" + "<dd><a href='" + actor.url + "'>" +
         actor.displayName + "</a>: " + commentBody + "</dd>";
 
   }

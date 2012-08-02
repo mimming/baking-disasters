@@ -7,7 +7,7 @@
 </head>
 <body>
 <header class="blog-header">
-  <a href="index.php"><img id="blog-logo" src="images/logo.png"/></a>
+  <a href="index.php"><img id="blog-logo" src="images/logo.png"></a>
   <h1>Baking Disasters</h1>
   <p>Because sometimes molecular gastronomy explodes.</p>
 </header>

@@ -17,7 +17,7 @@
 </head>
 <body>
 <header class="blog-header">
-  <img id="blog-logo" src="//bakingdisasters.com/potluck-party-planner/final/images/logo.png"/>
+  <img id="blog-logo" src="//bakingdisasters.com/potluck-party-planner/final/images/logo.png">
   <h1>Baking Disasters</h1>
   <p>Because sometimes molecular gastronomy explodes.</p>
   <a style="display: none;" id="reminder-share-link"
