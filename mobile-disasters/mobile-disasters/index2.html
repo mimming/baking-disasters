@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="http://code.jquery.com/mobile/latest/jquery.mobile.min.css"
+        rel="stylesheet" type="text/css"/>
+  <script type="text/javascript"
+          src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+  <script type="text/javascript"
+          src="http://code.jquery.com/mobile/latest/jquery.mobile.min.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="first" data-add-back-btn="true" data-theme="a">
+
+  <div data-role="header">
+    <h1>Page Title1</h1>
+  </div>
+  <!-- /header -->
+
+  <div data-role="content">
+    <p>Page content goes here.</p>
+    <a href="./four.html"  data-transition="slidefade">Go to second page</a>
+
+    <a href="index.html" data-rel="dialog">Open dialog</a>
+
+
+    <form>
+      <label for="slider-0">Input slider:</label>
+      <input type="range" name="slider" id="slider-0" value="25" min="0"
+             max="100"/>
+    </form>
+
+  </div>
+  <!-- /content -->
+
+  <div data-role="footer">
+    <h4>Page Footer1</h4>
+  </div>
+  <!-- /footer -->
+
+</div>
+<!-- /page -->
+
+<div data-role="page" id="second" data-add-back-btn="true" data-theme="b">
+
+  <div data-role="header">
+    <h1>Page Title2</h1>
+  </div>
+  <!-- /header -->
+
+  <div data-role="content">
+    <p>Page content goes here.</p>
+    <a href="#third">Go to third page</a>
+  </div>
+  <!-- /content -->
+
+  <div data-role="footer">
+    <h4>Page Footer2</h4>
+  </div>
+  <!-- /footer -->
+</div>
+<!-- /page -->
+
+<div data-role="page" id="third" data-add-back-btn="true" data-theme="c">
+
+  <div data-role="header">
+    <h1>Page Title2</h1>
+  </div>
+  <!-- /header -->
+
+  <div data-role="content">
+    <p>Page content goes here.</p>
+    <a href="#first">Go to first page</a>
+
+  </div>
+  <!-- /content -->
+
+  <div data-role="footer">
+    <h4>Page Footer2</h4>
+  </div>
+  <!-- /footer -->
+</div>
+<!-- /page -->
+
+</body>
+</html>
