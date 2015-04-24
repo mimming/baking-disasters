@@ -1,4 +1,4 @@
 baking-disasters
 ================
 
-A fictional site that I use for code samples
+The website content for bakingdisasters.com.  You probably want the master branch instead. That's where the code lives.

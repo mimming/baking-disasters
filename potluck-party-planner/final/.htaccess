@@ -1,4 +1,0 @@
-# disable caching for easier development
-<FilesMatch "\.(js|xml|css|php)$">
-Header unset Cache-Control
-</FilesMatch>
